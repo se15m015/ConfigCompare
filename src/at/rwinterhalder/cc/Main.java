@@ -10,9 +10,9 @@ public class Main {
 
     public static void main(String[] args) {
         String seperator = "<SEPERATOR>";
-        String fileName1 = "C:\\Users\\rwinterhalder\\Desktop\\Lucky7\\disme config\\mars\\config.properties";
-        String fileName2 = "C:\\Users\\rwinterhalder\\Desktop\\Lucky7\\disme config\\mars\\mars_dev_disme_FINAL.properties";
-        String outputFilename = "C:\\Users\\rwinterhalder\\Desktop\\Lucky7\\disme config\\mars\\mars_config_CC.properties";
+        String fileName1 = "C:\\Users\\rwinterhalder\\Desktop\\Lucky7\\disme config\\fvt\\happ\\happ_fvt_final.properties";
+        String fileName2 = "C:\\Users\\rwinterhalder\\Desktop\\Lucky7\\disme config\\fvt\\happ\\happ_fvtv2.properties";
+        String outputFilename = "C:\\Users\\rwinterhalder\\Desktop\\Lucky7\\disme config\\fvt\\happ\\happ_fvt_final_cc_happ_fvtv2.properties";
 
         Map<String,String> properties1 = new TreeMap<>();
         readFile(fileName1, properties1);
